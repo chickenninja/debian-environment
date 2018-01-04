@@ -1,0 +1,6 @@
+---
+- name: blah
+  hosts: localhost
+  tasks:
+    - name: something
+      shell: touch hello
