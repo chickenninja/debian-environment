@@ -6,5 +6,5 @@ node_js:
 before_script:
   - sudo apt-get install ansible -y
 script:
-  - ansible-playbook --connection=local playbook.yml
+  - ansible-playbook -i "localhost," -c local playbook.yml
   - ls
